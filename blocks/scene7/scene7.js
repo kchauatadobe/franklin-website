@@ -8,7 +8,7 @@ export default function decorate(block) {
     block.innerHTML = jsx`
         <picture>
           <source type="image/webp" srcset="${link}?$rfk_medium$">
-          <img class="s7" loading="lazy" alt="Isola by Filippo Piotti" src="${link}?$rfk_medium$">
+          <img class="s7" loading="lazy" alt="..." src="${link}?$rfk_medium$">
         </picture>
 
 

@@ -10,8 +10,6 @@ export default function decorate(block) {
           <source type="image/webp" srcset="${link}?$rfk_medium$">
           <img class="s7" loading="lazy" alt="..." src="${link}?$rfk_medium$">
         </picture>
-
-
     `;
   }
   

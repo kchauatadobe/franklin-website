@@ -5,7 +5,6 @@ export function jsx(html, ...args) {
 export default function decorate(block) {
     const link = block.querySelector('a');
     block.innerHTML = jsx`
-
         <picture>
             <source sizes="352.25px" 
                 srcset="${link}=/w/150?typ=webp 150w,${link}/w/300?typ=webp 300w,${link}/w/450?typ=webp 450w,${link}/w/600?typ=webp 600w" type="image/webp">

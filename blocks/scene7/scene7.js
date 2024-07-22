@@ -8,7 +8,7 @@ export default function decorate(block) {
     block.innerHTML = jsx`
         <img class="s7" src="
         ${link}
-        " itemprop="image">
+        " type="image/webp">
     `;
   }
   

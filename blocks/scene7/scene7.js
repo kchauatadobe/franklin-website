@@ -4,7 +4,7 @@ export function jsx(html, ...args) {
 
 export default function decorate(block) {
     const link = block.querySelector('a');
-    console.debug(link)
+
     block.innerHTML = jsx`
         <img class="s7" src="
         ${link}?$rfk_medium$

@@ -6,9 +6,12 @@ export default function decorate(block) {
     const link = block.querySelector('a');
 
     block.innerHTML = jsx`
-        <img loading="lazy" class="s7" src="
-        ${link}?$rfk_medium$
-        " type="image/webp">
+        <picture>
+          <source type="image/webp" srcset="${link}?$rfk_medium$">
+          <img class="s7" loading="lazy" alt="Isola by Filippo Piotti" src="${link}?$rfk_medium$">
+        </picture>
+
+
     `;
   }
   

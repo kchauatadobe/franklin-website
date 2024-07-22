@@ -7,7 +7,7 @@ export default function decorate(block) {
     console.debug(link)
     block.innerHTML = jsx`
         <img class="s7" src="
-        ${link}
+        ${link}?$rfk_medium$
         " type="image/webp">
     `;
   }
